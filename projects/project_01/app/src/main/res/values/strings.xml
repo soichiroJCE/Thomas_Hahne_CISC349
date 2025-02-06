@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="btn_add">+</string>
+    <string name="btn_subtract">-</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_clear">C</string>
+    <string name="toast_cleared">Screen Cleared</string>
+    <string name="default_display">0</string>
+</resources>
