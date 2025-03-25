@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/address_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/phone_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/comment_label"
+        />
+    <ListView
+        android:id="@+id/commentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/comment_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/comment_prompt"
+        />
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_comment"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

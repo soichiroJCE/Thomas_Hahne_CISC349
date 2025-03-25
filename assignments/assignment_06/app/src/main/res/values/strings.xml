@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CustomerList</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="name_prompt">Customer Name</string>
+    <string name="address_prompt">Address</string>
+    <string name="phone_prompt">Phone Number</string>
+    <string name="comment_prompt">Comment</string>
+    <string name="comment_label">Comments:</string>
+    <string name="save">Save</string>
+    <string name="add_comment">Add</string>
+    <string name="success">New Customer Saved</string>
+</resources>
